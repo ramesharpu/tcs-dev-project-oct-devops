@@ -17,4 +17,10 @@ public class TcsDevProjectOctDevopsApplication {
 	public String greet() {
 		return "<h1>Hello, welcome to TCS Dev Project!</h1>";
 	}
+	
+	//about module related code changes
+	@GetMapping("/about")
+	public String about() {
+		return "<h1>WE are TCS team, we work on DevOps project</h1>";
+	}
 }
